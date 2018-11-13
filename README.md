@@ -48,7 +48,7 @@ With Our Menu, you'll no longer struggle with media queries to create responsive
 	</header> 
 ```
 ##### Initilalize the menu:
-```$(document).ready(function(){
+```
     $('.toggle').click(function(){
     	 $(this).toggleClass('open');
        $('.menu, .innermenu').toggleClass('active');
@@ -60,7 +60,6 @@ With Our Menu, you'll no longer struggle with media queries to create responsive
             $('#header').removeClass('sticky');
         }
     });
-});
 ```
 ## Support:
 If you need help using Our Menu, have a suggestion or idea, or have found a bug, please create an issue.
